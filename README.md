@@ -1,57 +1,88 @@
-# <span style="color:6B240C ">**Mastering AI with Transformers and LLMs For NLP Applications Course**</span>
+# Mastering AI with Transformers and LLMs For NLP Applications Course
 
+**Mastering AI With Transformers and LLMs for NLP Applications isn't just a course;** it's a transformative experience that arms learners with the expertise, practical skills, and innovation-driven mindset needed to navigate and lead in the ever-evolving landscape of Artificial Intelligence.
 
-<span style="color:rgb(153, 77, 28)">**Mastering AI With Transformers and LLMs for NLP Applications isn't just a course; it's a transformative experience that arms learners with the expertise, practical skills, and innovation-driven mindset needed to navigate and lead in the ever-evolving landscape of Artificial Intelligence.**</span>
+<img src="photo1699818379 (1).jpeg">
 
+## Course Overview
 
-<img src="photo1699818379 (1).jpeg" /> 
+Embark on a transformative journey into the heart of Large Language Models (LLMs) with our comprehensive course. Dive deep into the intricacies of Transformers, unraveling their magic layer by layer, from the basics to building your own models and deploying them in production.
 
+### Course Content
 
-## <span style="color:610C9F ">Course Content</span>
+#### Chapter 1: Introduction (Understanding Transformers)
+1. Explore Transformer's Pipeline Module - [Notbook](chapter%201%20introduction/introduction.ipynb)
+1. High-Level Understanding of Transformers Architecture
+2. What are Language Models
 
-<span style="color:706233 ">**Embark on a transformative journey into the heart of Large Language Models (LLMs) with our comprehensive course, Mastering AI with Transformers and LLMs for NLP Applications. Dive deep into the intricacies of Transformers, unraveling their magic layer by layer, from the basics to building your own models and deploying them in production.**</span>
+#### Chapter 2: Transformers Architecture
+1. Input Embedding - [Notebook](chapter%202%20Transformers%20Architecture/1-Input%20Embedding.ipynb)
+2. Positional Encoding
+3. The Encoder
+4. The Decoder
+5. Autoencoding LM - BERT
+6. Autoregressive LM - GPT
+7. Sequence2Sequence LM - T5
+8. Tokenization - [Notebook](chapter%202%20Transformers%20Architecture/8-Tokenization(optional).ipynb)
 
-## <span style="color:610C9F ">What is included in this course?</span>
+#### Chapter 3: Text Classification
+1. Fine-tuning BERT for Sentiment Analysis - [Notebook](chapter%203-%20text%20classification/1-fine_tune_bert_for_sentiment_analysis.ipynb)
+2. Fine-tuning BERT for Multi-Class Classification - [Notebook](chapter%203-%20text%20classification/2-Fine_tuning_BERT_for_multi_class_classifiation.ipynb)
+3. Fine-tuning BERT for Sentence-Pairs - [Notebook](chapter%203-%20text%20classification/3-%20Fine-tuning%20the%20BERT%20model%20for%20sentence-pair.ipynb)
 
-<span style="color:163020 ">
+#### Chapter 4: Question Answering
+1. QA Intuition
+2. Build a QA System based on Amazon Reviews - [Notebook](chapter%204-%20QA/2_Amazon_Reviews_QA_.ipynb)
+3. Implement Retriever Reader Approach - [Notebook](chapter%204-%20QA/3-Retriever%20Reader%20Approach.ipynb)
+4. Fine Tuning Transformers for Question Answering Systems - [Notebook](chapter%204-%20QA/4-%20fine%20tune%2-QA.ipynb)
+5. Table QA - [Notebook](chapter%204-%20QA/5-%20Table_QA.ipynb)
 
-- In-Depth Knowledge of Transformer Architectures
-- Train Your Own GPT Model
-- Design, Build, and Train your Own Transformer architect from scratch
-- Build Custom Tokenizer For Your Own Corpus
-- Apply GPT2, T5, BART, BERT, DistilBERT, and PEGASUS to Real World Tasks
-- Model Optimization with Knowledge Distillation, Quantization, ONNX and the ONNX Runtime
-- Apply Transformers to Table Question Answering
-- Fine-Tuning PEGASUS for Dialogue Summarization
-- Fine-tuning BERT for Sentiment Analysis, Sentence-Pairs and Multi-Class Classification
-- Serving Transformers with Fast API and Containerizing Your Transformers APIs with Docker</span>
+#### Chapter 5: Text Generation
+1. Introduction to Text Generation
+1. Greedy Search Decoding - [Notebook](chapter%205-%20%20text%20generation/2-%20Greedy%20Search%20Decoding.ipynb)
+2. Beam Search Decoding - [Notebook](chapter%205-%20%20text%20generation/3_beam_search_decoding.ipynb)
+3. Sampling Methods - [Notebook](chapter%205-%20%20text%20generation/4_sampling_methods.ipynb)
+4. Train Your Own GPT - [Notebook](chapter%205-%20%20text%20generation/Train_your_own_GPT.ipynb)
 
-## <span style="color:610C9F ">What are the requirements for this course? </span>
+#### Chapter 6: Text Summarization
+1. Introduction to GPT2, T5, BART, PEGASUS
+2. Evaluation Metrics - Bleu Score, ROUGE
+3. Fine-Tuning PEGASUS for Dialogue Summarization - [Notebook](chapter%206%20-text%20summarization/Summarization.ipynb)
 
+#### Chapter 7: Build Your Own Transformer From Scratch
+1. Build Custom Tokenizer - [Notebook](chapter%207%20-%20-Transformer%20from%20scratch/2_build_tokenizer_russian.ipynb)
+2. Getting Your Data Ready - [Notebook](chapter%207%20-%20-Transformer%20from%20scratch/implement_transformer_layers.ipynb)
+3. Implement Positional Embedding - [Notebook](chapter%207%20-%20-Transformer%20from%20scratch/implement_transformer_layers.ipynb)
+4. Implement Transformer Architecture - [Notebook](chapter%207%20-%20-Transformer%20from%20scratch/implement_transformer_layers.ipynb)
+
+#### Chapter 8: Deploy Transformers Model in Production Environment
+1. Model Optimization with Knowledge Distillation - [Notebook](chapter%208%20Transformer%20in%20production/Model_Optimization_.ipynb)
+2. Model Optimization with Quantization - [Notebook](chapter%208%20Transformer%20in%20production/Model_Optimization_.ipynb)
+3. Model Optimization with ONNX and the ONNX Runtime - [Notebook](chapter%208%20Transformer%20in%20production/Model_Optimization_.ipynb)
+4. Serving Transformers with Fast API, Dockerizing Your Transformers APIs - [Project](chapter%208%20Transformer%20in%20production/app)
+
+### Requirements
 - Basic Python Programming
 - Fundamental Machine Learning Knowledge
 - NLP Basics (Optional)
-- What You Will Need: Python and Jupyter Notebooks
+- Python and Jupyter Notebooks
 
-## <span style="color:610C9F ">Why Enroll?</span>
-
-- Comprehensive Learning: From theory to practical application and deployment, this course covers a broad spectrum of topics.
+### Why Enroll?
+- Comprehensive Learning: From theory to practical application and deployment.
 - Practical Knowledge: Transform theoretical concepts into practical skills.
 - Versatility: Harness Transformer powers for diverse tasks.
 - Innovation: Become the architect of AI innovation.
 - Deployment Mastery: Seamlessly deploy models in production environments.
-- Real-World Relevance: Learn skills that are directly applicable to real-world scenarios, including deployment considerations.
+- Real-World Relevance: Skills directly applicable to real-world scenarios.
 
-## <span style="color:610C9F ">Who this course is for?</span>
-
+### Target Audience
 - AI Enthusiasts and Beginners
 - Data Scientists and Machine Learning Engineers
 - Developers and Programmers
-- Natural Language Processing (NLP) Enthusiasts
+- NLP Enthusiasts
 - Researchers and Academics
 - AI Innovators and Entrepreneurs
 
-## <span style="color:610C9F ">Coming Soon!</span>
-
+### Coming Soon!
 - AI For Audios Course
 - Transformers for Vision Course
